@@ -1,0 +1,98 @@
+@media (max-width: 600px) {
+  header {
+    background-image: url('../images/header-bg.png');
+    background-position: center 145%;
+	}
+
+	h1 {
+		text-align: center;
+		margin-bottom: 20px
+	}
+
+
+}
+
+    .menu-toggle {
+      display: none;
+      font-size: 2rem;
+      background: #86d099;
+      border: 1px solid #000;
+      border-radius: 5px;
+      cursor: pointer;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1001;
+      color: #333;
+    }
+
+    /* Навигация - десктоп */
+    #main-nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+    }
+
+    #main-nav li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    /* ==== За мобилни устройства ==== */
+    @media (max-width: 768px) {
+      .menu-toggle {
+        display: block;
+      }
+
+      #main-nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #86d099;
+        border: 1px solid #ccc;
+        padding: 10px;
+        z-index: 1000;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+      }
+
+      #main-nav.show {
+        display: block;
+        width: 100vw;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        bottom: 0px;
+      }
+
+      #main-nav ul {
+        display: block;
+        margin-top: 60px;
+        text-align: center;
+
+
+      }
+
+      #main-nav li {
+        margin-bottom: 10px;
+      }
+
+      #main-nav li:last-child {
+        margin-bottom: 0;
+      }
+
+      #main-nav li a {
+      color: #fff;
+      }
+    }
+
+    @media (max-width: 500px) {
+     header {
+    background-position: center 100%;
+	}
+   }
+
+
