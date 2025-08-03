@@ -1,0 +1,31 @@
+@import url('./css-reset.css');
+@import url('./header.css');
+@import url('./favorite-menu.css');
+@import url('./best-seller.css');
+@import url('./statistics.css');
+@import url('./second-best-seller.css');
+@import url('./quotes.css');
+@import url('./contacts.css');
+@import url('./footer.css');
+@import url('./font-awesome.css');
+@import url('./mobile.css');
+
+body {
+    background: #99ac8b;
+    color: #373233;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+p { 
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}

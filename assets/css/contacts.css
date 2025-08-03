@@ -1,0 +1,153 @@
+.contacts {
+    background-color: #86d099;
+    position: relative;
+}
+
+.contacts h2 {
+    padding: 190px 0 50px;
+    font-size: 53px;
+    color: #4d80e4;
+    font-weight: 700;
+    font-family: "Aleo";
+    text-align: center;
+}
+
+.contacts p {
+    font-size: 25px;
+    color: #1a1a1a;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0 auto 100px;
+    max-width: 670px;
+}
+
+.contacts form {
+    position: relative;
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 280px;
+
+}
+
+.contacts form input {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 20px 200px 20px 25px;
+    border: none;
+    width: 100%;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
+.contacts form input::placeholder {
+    color: rgba(0,0,0, 0.7)
+}
+.contacts form input[type="submit"]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: max-content;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #4d80e4;
+    padding: 19px 40px;
+    border: 2px solid #4d80e4;
+    box-sizing: border-box;
+}
+
+.contacts form input[type="submit"]:hover {
+    color: #4d80e4; 
+    background-color: transparent;
+    transition: .5s;
+
+}
+
+.contacts .wrapper .background-element .tomato,
+.contacts .wrapper .background-element .pizza,
+.contacts .wrapper .background-element .sandwich,
+.contacts .wrapper .background-element .burger {
+    position: absolute;
+}
+
+.contacts .wrapper .background-element .tomato {
+    top: 140px;
+    left: 90px;
+}
+
+.contacts .wrapper .background-element .burger {
+    top: 80px;
+    right: 70px;
+
+}
+
+.contacts .wrapper .background-element .pizza {
+    left: 150px;
+    bottom: 80px;
+
+
+}
+
+.contacts .wrapper .background-element .sandwich {
+    right: 140px;
+    bottom: 60px;
+}
+
+/* Large devices /desktop, laptop/ */
+@media screen and (max-width: 768px) {
+    .contacts h2 {
+        font-size: 45px;
+    }
+
+    .contacts p {
+        font-size: 22px;
+    }
+
+    .contacts form input {
+        font-size: 20px;
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+
+    .contacts form input[type="submit"] {
+        position: static;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .contacts .wrapper .background-element .tomato,
+    .contacts .wrapper .background-element .pizza,
+    .contacts .wrapper .background-element .sandwich,
+    .contacts .wrapper .background-element .burger {
+    display: none;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    .contacts h2 {
+        padding-top: 50px;
+    }
+
+    .contacts p { 
+        margin-bottom: 30px;
+    }
+
+    .contacts form {
+        padding-bottom: 50px;
+    }
+}
+
+
+
+
+

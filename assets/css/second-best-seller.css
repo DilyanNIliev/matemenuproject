@@ -1,0 +1,93 @@
+.second-best-seller {
+    padding: 160px 0;
+    position: relative
+}
+
+.second-best-seller .wrapper {
+    display: flex;
+    flex-direction: row;;
+    gap: 165px;
+    justify-content: space-between;
+}
+
+.second-best-seller .wrapper h2 {
+    font-size: 53px;
+    color: #1b6ec7;
+    font-weight: 700;
+    font-family: "Aleo";
+    margin: 15px 0 30px 8px;
+}
+
+.second-best-seller .wrapper p {
+    color: #1a1a1a;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.second-best-seller .wrapper .background-element .tomato,
+.second-best-seller .wrapper .background-element .pizza,
+.second-best-seller .wrapper .background-element .sandwich,
+.second-best-seller .wrapper .background-element .burger {
+    position: absolute;
+}
+
+.second-best-seller .wrapper .background-element .tomato {
+    top: 10px;
+    right: 5%;
+}
+
+.second-best-seller .wrapper .background-element .burger {
+    top: 45px;
+    right: 40%;
+
+}
+
+.second-best-seller .wrapper .background-element .pizza {
+    right: 5%;
+    bottom: 6px;
+
+
+}
+
+.second-best-seller .wrapper .background-element .sandwich {
+    left: 50%;
+    bottom: 45px;
+}
+
+@media screen and (max-width: 992px) {
+    .second-best-seller .wrapper .background-element .tomato,
+    .second-best-seller .wrapper .background-element .pizza,
+    .second-best-seller .wrapper .background-element .sandwich,
+    .second-best-seller .wrapper .background-element .burger {
+    display: none;
+    }
+
+    
+    .second-best-seller .wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .second-best-seller .wrapper p {
+        text-align: center;
+    }
+
+    .second-best-seller .wrapper h2 {
+        font-size: 30px;
+    }
+
+    .second-best-seller .wrapper .img-container img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .second-best-seller {
+        padding: 50px 0;
+    }
+}

@@ -1,0 +1,109 @@
+.statistics {
+    background-color: #1b6ec7;
+}
+
+.statistics h2 {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Aleo";
+    text-align: center;
+    padding: 90px 0 60px;
+}
+
+.statistics .statistic-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding-bottom: 300px;
+
+}
+
+.statistics .statistic-items p{
+font-size: 24px;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+.statistics p,
+.statistics p span {
+    font-size: 96px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.statistics p span {
+    display: flex;
+    padding-top: 30px;
+    margin: 160px 0px;
+    justify-content: space-around;
+    
+}
+
+.statistics-item div {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    margin: 0 auto;
+
+}
+
+
+@media screen and (max-width: 1206px) {
+
+    body > section.statistics > div > div > div:nth-child(4)  {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 906px) {
+
+    body > section.statistics > div > div > div:nth-child(3)  {
+        margin-top: 200px;
+    }
+
+    .statistics .statistic-items {
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 606px) {
+
+    body > section.statistics > div > div > div:nth-child(3),
+    body > section.statistics > div > div > div:nth-child(4)  {
+        margin-top: 50px;
+    }
+
+    .statistics-item div {
+        width: 150px;
+        height: 150px;
+    }
+
+    .statistics p span { 
+        margin: 80px 0px;
+    }
+
+    .statistics p,
+    .statistics p span {
+        font-size: 40px;
+}
+
+
+}
+
+@media screen and (max-width: 406px) {
+    body > section.statistics > div > div > div:nth-child(2),
+    body > section.statistics > div > div > div:nth-child(3),
+    body > section.statistics > div > div > div:nth-child(4)  {
+        margin-top: 100px;
+    }
+
+}

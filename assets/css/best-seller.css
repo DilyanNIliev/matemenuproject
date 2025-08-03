@@ -1,0 +1,91 @@
+.best-seller {
+    padding: 190px 0;
+    position: relative
+}
+
+.best-seller .wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 85px;
+    justify-content: space-between;
+}
+
+.best-seller .wrapper h2 {
+    font-size: 53px;
+    color: #1b6ec7;
+    font-weight: 700;
+    font-family: "Aleo";
+    margin: 15px 0 30px 8px;
+}
+
+.best-seller .wrapper p {
+    color: #1a1a1a;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.best-seller .wrapper .background-element .tomato,
+.best-seller .wrapper .background-element .pizza,
+.best-seller .wrapper .background-element .sandwich,
+.best-seller .wrapper .background-element .burger {
+    position: absolute;
+}
+
+.best-seller .wrapper .background-element .tomato {
+    top: 60px;
+    left: 83px;
+}
+
+.best-seller .wrapper .background-element .burger {
+    top: 40px;
+    right: 0px;
+
+}
+
+.best-seller .wrapper .background-element .pizza {
+    left: 60px;
+    bottom: -15px;
+}
+
+.best-seller .wrapper .background-element .sandwich {
+    right: 125px;
+    bottom: 5px;
+}
+
+@media screen and (max-width: 992px) {
+        .best-seller .wrapper .background-element .tomato,
+        .best-seller .wrapper .background-element .pizza,
+        .best-seller .wrapper .background-element .sandwich,
+        .best-seller .wrapper .background-element .burger {
+    display: none;
+    }
+
+    .best-seller .wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .best-seller .wrapper p {
+        text-align: center;
+    }
+    
+    .best-seller .wrapper h2 {
+        font-size: 30px;
+    }
+
+    .best-seller .wrapper .img-container img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .best-seller {
+        padding: 50px 0;
+    }
+    
+}

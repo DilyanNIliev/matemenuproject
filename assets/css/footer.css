@@ -1,0 +1,96 @@
+footer {
+    background-color: #111111;
+    padding: 180px 0 280px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+footer .footer-content h2 {
+    font-size: 25px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin-bottom: 22px;
+}
+
+footer .footer-content .about p {
+    max-width: 375px;
+    text-align: left;
+    width: 359px;
+    font-size: 18px;
+    line-height: 31px;
+
+}
+
+footer .footer-content .additional-info ul
+ {
+    padding-left: 30px;
+}
+
+footer .footer-content .additional-info ul li {
+    list-style: disc;
+    padding-bottom: 10px;
+   
+}
+
+footer .footer-content .contact-us ul { 
+    padding-left: 50px;
+}
+
+footer .footer-content .contact-us ul li {
+    padding: 0 40px 22px 0;
+    position: relative;
+}
+
+footer .footer-content .contact-us ul li.phone:before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/ico-phone.png');
+    position: absolute;
+    left: -30px;
+}
+
+footer .footer-content .contact-us ul li.address:before {
+    content: '';
+    display: block;
+    width: 18px;
+    height: 13px;
+    background-image: url('../images/ico-house.png');
+    position: absolute;
+    left: -30px;
+}
+
+footer .footer-content .contact-us ul li.email:before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 12px;
+    background-image: url('../images/ico-email.png');
+    position: absolute;
+    left: -30px;
+}
+
+footer .footer-content .contact-us ul li a {
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    footer .footer-content h2 {
+        text-align: center;
+    
+    }
+
+    footer {
+        padding: 40px 0 80px;
+    }
+}
+
