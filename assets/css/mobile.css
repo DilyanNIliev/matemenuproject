@@ -15,14 +15,15 @@
     .menu-toggle {
       display: none;
       font-size: 2rem;
-      background: none;
-      border: none;
+      background: #86d099;
+      border: 1px solid #000;
+      border-radius: 5px;
       cursor: pointer;
       position: fixed;
       top: 20px;
       right: 20px;
       z-index: 1001;
-      color: #fff;
+      color: #333;
     }
 
     /* Навигация - десктоп */
