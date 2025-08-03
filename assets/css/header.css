@@ -95,7 +95,6 @@ header .content-container a {
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
-    margin-top: 60px;
     border: 2px solid #1b6ec7;
 }
 
@@ -144,7 +143,6 @@ header .search-wrapper,
 
     .btnprimary {
           position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
     }

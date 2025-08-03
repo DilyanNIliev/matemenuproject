@@ -40,6 +40,9 @@
       color: #333;
     }
 
+
+
+
     /* ==== За мобилни устройства ==== */
     @media (max-width: 768px) {
       .menu-toggle {
@@ -88,3 +91,14 @@
       color: #fff;
       }
     }
+
+    @media (max-width: 500px) {
+     header {
+    background-image: url('../images/header-bg.png');
+    background-position: center 100%;
+	}
+   }
+
+
+
+
